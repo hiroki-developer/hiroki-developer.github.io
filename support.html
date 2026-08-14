@@ -1,69 +1,36 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hiroki-developer App Support</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 30px 20px; color: #333; background-color: #fafafa; }
-        h1 { border-bottom: 3px solid #333; padding-bottom: 10px; color: #111; font-size: 28px; }
-        h2 { margin-top: 30px; color: #444; font-size: 20px; border-left: 5px solid #007aff; padding-left: 10px; }
-        /* プレミアム通貨電卓用の特別なゴールド左線 */
-        h2.premium-title { border-left: 5px solid #d4af37; }
-        .app-list { list-style: none; padding: 0; }
-        .app-item { background: #fff; border: 1px solid #e1e4e8; padding: 15px; margin-bottom: 12px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
-        .app-name { font-weight: bold; font-size: 16px; color: #007aff; }
-        /* 通貨電卓用のゴールドカラー */
-        .app-name.premium { color: #b89320; }
-        /* 割り勘カメラ用のサイバーネオングリーンカラー */
-        .app-name.camera-app { color: #00a651; }
-        .contact-box { background: #eef6ff; border: 1px solid #b3d7ff; padding: 20px; border-radius: 8px; margin-top: 30px; }
-        a { color: #007aff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        footer { margin-top: 50px; font-size: 12px; color: #666; text-align: center; line-height: 2; }
-    </style>
-</head>
-<body>
+---
+meta-viewport: width=device-width, initial-scale=1.0
+title: hiroki-developer App Support
+---
 
-    <h1>hiroki-developer アプリサポート窓口</h1>
-    <p>当デベロッパーが配信しているiOSアプリに関するサポートページです。不具合のご報告、ご意見・ご要望は、下部のお問い合わせ窓口よりお気軽にご連絡ください。</p>
+# hiroki-developer アプリサポート窓口
 
-    <h2>📱 対象アプリケーション</h2>
-    <ul class="app-list">
-        <!-- 💡 最新作：ProCal をリストの最上部に追加 -->
-        <li class="app-item" style="border-left: 3px solid #d4af37;">
-            <span class="app-name premium">プロ通貨換算電卓</span>
-            <p style="margin: 5px 0 0; font-size: 14px; color: #555;">「100×2+15」のような長い複数計算をそのまま入力可能。打った数式がそのまま残る「計算ログ」や自由な「カスタムメモ」、スワイプ削除など、旅の割り勘や買い物を極限まで快適にする世界主要34通貨対応のプロ仕様換算電卓です。オフライン保護機能で電波がなくても爆速で動きます。</p>
-        </li>
-        <!-- 💡 新着：トラベル割り勘カメラを追加（イメージカラーのグリーンで強調） -->
-        <li class="app-item" style="border-left: 3px solid #00a651;">
-            <span class="app-name camera-app">トラベル割り勘カメラ - AI海外通貨換算</span>
-            <p style="margin: 5px 0 0; font-size: 14px; color: #555;">海外のレシートをカメラでパシャッと撮るだけ。高度なAIが合計金額を自動スキャンし、最新の為替レートで日本円に換算して一瞬で割り勘ができる旅行者のための必須ツールです。</p>
-        </li>
-        <li class="app-item" style="border-left: 3px solid #d4af37;">
-            <span class="app-name premium">プレミアム通貨電卓 - オフライン仮想通貨＆金</span>
-            <p style="margin: 5px 0 0; font-size: 14px; color: #555;">機内や地下鉄でもサクサク動く。主要アジア通貨から暗号資産、金（ゴールド）まで網羅した高級感あふれる換算・両替計算機です。</p>
-        </li>
-        <li class="app-item">
-            <span class="app-name">魔法のデッキ編纂帳 - ハリポタTCG用カード図鑑</span>
-            <p style="margin: 5px 0 0; font-size: 14px; color: #555;">ハリー・ポッターTCGのデッキ構築、コレクション管理をサポートする非公式ツールです。</p>
-        </li>
-        <li class="app-item">
-            <span class="app-name">RouletteMaker (ルーレット作成アプリ)</span>
-            <p style="margin: 5px 0 0; font-size: 14px; color: #555;">項目を自由に決めて簡単に意思決定ができる便利なルーレットアプリです。</p>
-        </li>
-    </ul>
+当デベロッパーが配信しているiOSアプリに関するサポートページです。不具合のご報告、ご意見・ご要望は、下部のお問い合わせ窓口よりお気軽にご連絡ください。
 
-    <div class="contact-box">
-        <h2>✉️ お問い合わせ窓口</h2>
-        <p>アプリに関するお問い合わせ（バグ報告・改善要望など）は、恐れ入りますが以下のGitHubプロフィール、またはリポジトリの「Issues」よりご連絡をお願いいたします。</p>
-        <p><strong>GitHub Link:</strong> <a href="https://github.com/hiroki-developer" target="_blank">hiroki-developer Profile</a></p>
-    </div>
+## 📱 対象アプリケーション
 
-    <footer>
-        <p>&copy; 2026 hiroki-developer. All rights reserved.</p>
-        <p><a href="privacy.html">プライバシーポリシーはこちら</a></p>
-    </footer>
+- プロ通貨換算電卓　「100×2+15」のような長い複数計算をそのまま入力可能。打った数式がそのまま残る「計算ログ」や自由な「カスタムメモ」、スワイプ削除など、旅の割り勘や買い物を極限まで快適にする世界主要34通貨対応のプロ仕様換算電卓です。オフライン保護機能で電波がなくても爆速で動きます。
 
-</body>
-</html>
+- トラベル割り勘カメラ - AI海外通貨換算　海外のレシートをカメラでパシャッと撮るだけ。高度なAIが合計金額を自動スキャンし、最新の為替レートで日本円に換算して一瞬で割り勘ができる旅行者のための必須ツールです。
+
+- プレミアム通貨電卓 - オフライン仮想通貨＆金　機内や地下鉄でもサクサク動く。主要アジア通貨から暗号資産、金（ゴールド）まで網羅した高級感あふれる換算・両替計算機です。
+
+- 魔法のデッキ編纂帳 - ハリポタTCG用カード図鑑　ハリー・ポッターTCGのデッキ構築、コレクション管理をサポートする非公式ツールです。
+
+- RouletteMaker (ルーレット作成アプリ)　項目を自由に決めて簡単に意思決定ができる便利なルーレットアプリです。
+
+- DrinkDiaryLogTrack　飲んだお酒を記録・振り返りできる、シンプルな飲酒ダイアリーアプリです。
+
+## ✉️ お問い合わせ窓口
+
+アプリに関するお問い合わせ（バグ報告・改善要望など）は、以下のメールアドレスまでご連絡ください。通常2〜3営業日以内にご返信いたします。
+
+**Email:** hiroki.hatena4649@gmail.com
+
+GitHubをご利用の方は、以下のプロフィール・リポジトリの「Issues」からもご連絡いただけます。
+
+**GitHub Link:** [hiroki-developer Profile](https://github.com/hiroki-developer)
+
+© 2026 hiroki-developer. All rights reserved.
+
+[プライバシーポリシーはこちら](https://hiroki-developer.github.io/privacy.html)
